@@ -52,7 +52,9 @@ namespace lwpp
 			pixmap = iu.pixmap;
 			doDestroy = iu.doDestroy;
 		}
-
+		LWPixmapID getImage() {
+			return pixmap;
+		}
 		ImageUtil &operator=(const ImageUtil &iu)
 		{
 			if (&iu != this)

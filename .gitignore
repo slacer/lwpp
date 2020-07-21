@@ -3,6 +3,7 @@ doxygen
 Win32/
 x64/
 lib/
+.vs/
 *.mov
 *.zip
 *.rar
